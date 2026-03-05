@@ -24,5 +24,8 @@
     <ClCompile Include="带头结点的单链表.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="链栈.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

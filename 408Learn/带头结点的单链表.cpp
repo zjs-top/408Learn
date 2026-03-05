@@ -160,3 +160,18 @@ LinkList List_Reverse(LinkList& L) {
 
 	return L;
 }
+//不带头结点的头插法
+LinkList List_HeadIsert2(LinkList& L) {
+	LNode* s;
+	int x;
+	scanf("%d", &s);
+	L = NULL;
+	while (x != 9999) {
+		s =(LNode*) malloc(sizeof(LNode));
+		s->data = x;
+		s->next = L;
+		L = s;
+		scanf("%d", &x);
+	}
+	return L;
+}
