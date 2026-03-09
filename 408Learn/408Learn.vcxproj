@@ -21,8 +21,11 @@
   <ItemGroup>
     <ClCompile Include="动态顺序表.cpp" />
     <ClCompile Include="带头结点的单链表.cpp" />
+    <ClCompile Include="循环队列.cpp" />
+    <ClCompile Include="链式队列.cpp" />
     <ClCompile Include="链栈.cpp" />
     <ClCompile Include="静态顺序表.cpp" />
+    <ClCompile Include="顺序队列.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
